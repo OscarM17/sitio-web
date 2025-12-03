@@ -3,5 +3,5 @@ FROM atmoz/sftp
 # usuario : contraseña ::: carpeta
 ENV SFTP_USERS="admin:admin123:::upload"
 
-VOLUME /home/admin/upload
 EXPOSE 22
+
